@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/png">
+    <title>公開アプリ一覧</title>
+    <style>
+        /* 全体のレイアウト */
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f8f9fa; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; text-align: center; }
+        
+        /* タイトルと説明文 */
+        h1 { font-size: 2.2em; color: #495057; margin-bottom: 10px; }
+        .description { font-size: 1.1em; color: #868e96; margin-bottom: 50px; }
+        
+        /* アプリ一覧をグリッドで並べる */
+        .app-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 30px; justify-items: center; padding: 0; list-style: none; }
+        
+        /* 各アプリのカードデザイン */
+        .app-item { position: relative; background: #f8f8ff; padding: 20px; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 150px; transition: transform 0.2s ease, box-shadow: 0.2s ease; cursor: pointer; }
+        .app-item:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.15); }
+        
+        /* 画像（アイコン）をクリック可能にするリンク */
+        .app-link { text-decoration: none; display: block; color: inherit; }
+        
+        /* アイコン画像のデザイン */
+        .app-icon { width: 100px; height: 100px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 4px rgba(0,0,0,0.08); margin-bottom: 15px; }
+        
+        /* アプリ名テキストのデザイン */
+        .app-title { font-size: 1em; font-weight: bold; margin: 0; word-wrap: break-word; color: #343a40; }
+        
+        /* お問い合わせ */
+        .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #adb5bd; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>公開アプリ一覧</h1>
+        <p class="description">私が開発しているアプリのプライバシーポリシーです。アプリ名をクリックしてください。</p>
+        
+        <ul class="app-grid">
+            <li class="app-item">
+                <a href="apps-privacy/todoni/index.html" class="app-link">
+                    <img src="apps-privacy/images/todoni_icon.png" alt="todoniアイコン" class="app-icon">
+                    <p class="app-title">todoni</p>
+                </a>
+            </li>
+            <li class="app-item">
+                <a href="apps-privacy/sanpo-note/index.html" class="app-link">
+                    <img src="apps-privacy/images/sanpo_note_icon.png" alt="sanpo noteアイコン" class="app-icon">
+                    <p class="app-title">sanpo note</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
