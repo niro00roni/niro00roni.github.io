@@ -1,0 +1,10 @@
+name: apps-privacy
+
+services:
+  node:
+    build: .
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/app:cached
