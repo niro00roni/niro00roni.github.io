@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build out": "next build && rsync -av --exclude='*.svg' out/ .",
+    "build-out": "next build && rsync -av --exclude='*.svg' out/ . && chown -R node:node .",
     "start": "next start",
     "lint": "eslint"
   },
