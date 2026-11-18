@@ -33,9 +33,25 @@ export default function SanpoNotePrivacyPolicyJa() {
             <strong className="text-slate-700">Googleドライブデータ:</strong>{' '}
             バックアップ機能を利用する場合、データはユーザー自身のGoogleドライブ（アプリ専用フォルダ）に保存されます。
           </li>
+          <li>
+            <strong className="text-slate-700">
+              広告配信（Google AdMob）:
+            </strong>{' '}
+            本アプリでは広告配信のためにGoogle
+            AdMobを利用しており、広告の最適化のためにIPアドレスや広告ID等の情報がGoogleに自動取得・利用される場合があります。詳細は
+            <a
+              href="https://policies.google.com/technologies/ads?hl=ja"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline hover:text-blue-800"
+            >
+              Googleのポリシーと規約
+            </a>
+            をご確認ください。
+          </li>
         </ul>
         <p className="text-slate-600 mt-3">
-          これらのデータは、アプリの機能提供および改善のためにのみ使用され、個人を特定する目的では使用されません。
+          これらのデータは、アプリの機能提供・改善および適切な広告配信のためにのみ使用され、個人を特定する目的では使用されません。
         </p>
       </section>
 

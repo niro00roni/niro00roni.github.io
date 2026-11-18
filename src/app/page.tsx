@@ -7,8 +7,8 @@ import { APPS, PAGE_TEXT, type Lang } from '@/constants/apps';
 import { useState } from 'react';
 
 const LAST_UPDATED: Record<Lang, string> = {
-  ja: '2026年9月30日',
-  en: 'September 30, 2026',
+  ja: '2026年11月19日',
+  en: 'November 19, 2026',
 };
 
 export default function Home() {
