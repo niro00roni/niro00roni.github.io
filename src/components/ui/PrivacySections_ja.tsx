@@ -23,10 +23,19 @@ export function AdSectionJa({ sectionNumber = 1 }: { sectionNumber?: number }) {
       </h2>
       <p className="text-slate-600 mb-2">
         本アプリでは、第三者配信の広告サービス（Google
-        AdMob）を利用しています。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookie（クッキー）やデバイス識別子を使用することがあります。
+        AdMob）を利用しています。広告配信事業者は、ユーザーの興味や地域に応じた広告を表示するためにCookie（クッキー）、デバイス識別子、IPアドレス等の情報を自動取得・使用することがあります。
       </p>
       <p className="text-slate-600">
-        これらのデータは匿名で収集されており、個人を特定するものではありません。
+        これらのデータは匿名で収集されており、個人を特定するものではありません。詳細は
+        <a
+          href="https://policies.google.com/technologies/ads?hl=ja"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Googleのポリシーと規約
+        </a>
+        をご確認ください。
       </p>
     </section>
   );

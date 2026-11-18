@@ -8,8 +8,8 @@ export function PrivacyTitleEn({ appName }: { appName: string }) {
       </h1>
 
       <p className="text-slate-600">
-        This Privacy Policy applies to the mobile application &quot;{appName}&quot;
-        (hereinafter referred to as the &quot;App&quot;).
+        This Privacy Policy applies to the mobile application &quot;{appName}
+        &quot; (hereinafter referred to as the &quot;App&quot;).
       </p>
     </>
   );
@@ -23,12 +23,22 @@ export function AdSectionEn({ sectionNumber = 1 }: { sectionNumber?: number }) {
       </h2>
       <p className="text-slate-600 mb-2">
         The App uses a third-party ad delivery service (Google AdMob). Ad
-        delivery operators may use cookies or device identifiers to display
-        advertisements tailored to user interests.
+        delivery operators may automatically collect and use cookies, device
+        identifiers, IP addresses, and similar information to display
+        advertisements tailored to user interests and general location.
       </p>
       <p className="text-slate-600">
         This data is collected anonymously and does not personally identify
-        individuals.
+        individuals. For more details, please review{' '}
+        <a
+          href="https://policies.google.com/technologies/ads?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Google&apos;s Privacy & Terms
+        </a>
+        .
       </p>
     </section>
   );
@@ -72,8 +82,8 @@ export function DataDeletionSectionEn({
         </li>
       </ol>
       <p className="text-slate-600 mt-3">
-        Please note that the developer cannot directly access, modify, or
-        delete data stored in the user&apos;s Google Drive.
+        Please note that the developer cannot directly access, modify, or delete
+        data stored in the user&apos;s Google Drive.
       </p>
     </section>
   );
@@ -108,8 +118,8 @@ export function InquiriesSectionEn({
         {sectionNumber}. Inquiries
       </h2>
       <p className="text-slate-600 mb-2">
-        If you have any questions regarding this Privacy Policy or requests
-        for account and related data deletion, please contact us at the email
+        If you have any questions regarding this Privacy Policy or requests for
+        account and related data deletion, please contact us at the email
         address below:
       </p>
       <ContactEmail />

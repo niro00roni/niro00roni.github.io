@@ -9,8 +9,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const LAST_UPDATED: Record<Lang, string> = {
-  ja: '2026年9月20日',
-  en: 'September 20, 2026',
+  ja: '2026年11月19日',
+  en: 'November 19, 2026',
 };
 
 export default function TodoniPrivacyPolicy() {

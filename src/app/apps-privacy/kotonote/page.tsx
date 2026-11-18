@@ -18,7 +18,7 @@ export default function SanpoNotePrivacyPolicy() {
 
       <KotoNotePrivacyPolicyJa />
 
-      <Footer lastUpdatedLabel="最終更新日" lastUpdated="2026年9月30日" />
+      <Footer lastUpdatedLabel="最終更新日" lastUpdated="2026年11月19日" />
     </div>
   );
 }
